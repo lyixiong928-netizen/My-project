@@ -334,6 +334,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 208967696}
+  startRecording: 0
+  captureFrameRate: 24
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,7 +348,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ba873846a02774380188ad08303619, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 1576165274}
+  startRecording: 0
+  captureFrameRate: 24
 --- !u!1 &1576165274
 GameObject:
   m_ObjectHideFlags: 0
